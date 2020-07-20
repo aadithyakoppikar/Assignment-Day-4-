@@ -1,0 +1,63 @@
+<html>
+<head>
+<h2>Assignment Day 4</h2>
+</head>
+<body>
+<script>
+function a() {
+const b = document.getElementById('c').value;
+console.log(b);
+}
+function p() {
+const q = document.getElementById('r').value;
+console.log(q);
+
+}
+function x() {
+const y = document.getElementById('z').value;
+console.log(y);
+}
+if(q=="plus"){
+document.write(a+x);
+}
+else if(q=="minus"){
+document.write(a-x);
+}
+if(q=="multiplied by"){
+document.write(a*x);
+}
+else if(q=="divided by"){
+document.write(a/x);
+}
+// return a;
+// // return q;
+// // return x;
+
+
+
+// // return b;
+// // return q;
+// // return y;
+
+</script>
+
+<form>
+<input type="number" id="c" value="">
+<input type="button" value="Enter" onclick="a()" />
+</form>
+
+<form>
+<input type="operation" id="r" value="">
+<input type="button" value="Enter" onclick="p()" />
+</form>
+
+<form>
+<input type="number" id="z" value="">
+<input type="button" value="Enter" onclick="x()" />
+</form>
+
+<script>
+//document.write("Enter Num1 in the first block."+"<br />"+"Enter operation in second block."+"<br />"+"Enter Num2 in third block.");
+</script>
+</body>
+</html>
