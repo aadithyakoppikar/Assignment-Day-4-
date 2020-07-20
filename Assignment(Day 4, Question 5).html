@@ -1,0 +1,39 @@
+<html>
+<head>
+<h2>Assignment Day 4</h2>
+</head>
+<body>
+<script>
+function a() {
+const b = document.getElementById('c').value;
+console.log(b);
+if(b>0 && b<5000){
+    var x = b*2/100
+    
+    console.log(Math(b+x));
+    }
+if(b>5000 && b<10000){
+    var x = b*5/100
+    
+    console.log(Math(b+x));
+    }
+if(b>10000 && b<20000){
+    var x = b*7/100
+    
+    console.log(Math(b+x));
+    }
+if(b>20000){
+    var x = b*10/100
+    
+    console.log(Math(b+x));
+    }
+}
+</script>
+
+<form>
+<input type="number" id="c" value="">
+<input type="button" value="Enter" onclick="a()" />
+</form>
+
+</body>
+</html>
